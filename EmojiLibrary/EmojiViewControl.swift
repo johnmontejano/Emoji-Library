@@ -9,39 +9,25 @@
 import UIKit
 
 class EmojiViewControl: UIViewController {
-var emoji = "no emoji"
+var emoji = Emoji()
     @IBOutlet weak var emojiText: UILabel!
+    @IBOutlet weak var birthdateLabel: UILabel!
+    @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var definitionLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-emojiText.text = emoji
- definitionLabel.text = "dude"
-        if emoji == "💯" {
-            definitionLabel.text = "This is the 100 emoji (used by teens)"
-        }
-        if emoji == "💤"{
-        definitionLabel.text = "Im sleepy not right now"
-        }
-        if emoji == "🇲🇽"{
-        definitionLabel.text = "Mexican Flag"
-        }
-        if emoji == "🌲"{
-            definitionLabel.text = "I think we are ready for Xmas"
-        }
-        if emoji == "😊"{
-            definitionLabel.text = "I am Happy!!!"
-            
-        }
-        if emoji == "😁"{
-            definitionLabel.text = "My teeth hurt"
+        emojiText.text = emoji.emojiString
+        birthdateLabel.text = "birth year: \(emoji.birthYear)"
+        categoryLabel.text =  "Category: \(emoji.category)"
+        definitionLabel.text = "Definition: \(emoji.definition)"
+        
         }
 
 
-print(emoji)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+     func didReceiveMemoryWarning() {
+       //super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
@@ -56,4 +42,4 @@ print(emoji)
     }
     */
 
-}
+

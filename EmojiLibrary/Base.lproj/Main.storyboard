@@ -53,34 +53,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is closed teeth emoji" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dth-0T-dn4">
-                                <rect key="frame" x="20" y="365" width="560" height="199"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="199" id="FUn-hi-vyt"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="😁" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGQ-a5-es5">
                                 <rect key="frame" x="20" y="33" width="560" height="311"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="107"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is closed teeth emoji" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dth-0T-dn4">
+                                <rect key="frame" x="20" y="357.5" width="560" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birthdate" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ddV-tX-Bjt">
+                                <rect key="frame" x="20" y="462" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiJ-Py-0dS">
+                                <rect key="frame" x="20" y="357" width="560" height="118"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="118" id="hQI-AM-prs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vDi-tj-njf" firstAttribute="top" secondItem="dth-0T-dn4" secondAttribute="bottom" constant="36" id="77d-tY-LLd"/>
-                            <constraint firstItem="dth-0T-dn4" firstAttribute="top" secondItem="NGQ-a5-es5" secondAttribute="bottom" constant="21" id="AD5-Ny-eV0"/>
+                            <constraint firstItem="ddV-tX-Bjt" firstAttribute="centerX" secondItem="hiJ-Py-0dS" secondAttribute="centerX" id="6Yo-O9-JAi"/>
+                            <constraint firstItem="hiJ-Py-0dS" firstAttribute="leading" secondItem="ddV-tX-Bjt" secondAttribute="leading" id="D44-Ko-odo"/>
+                            <constraint firstItem="hiJ-Py-0dS" firstAttribute="centerX" secondItem="dth-0T-dn4" secondAttribute="centerX" id="Lj1-zm-BZC"/>
                             <constraint firstItem="NGQ-a5-es5" firstAttribute="leading" secondItem="dVb-Uj-V9j" secondAttribute="leadingMargin" id="Ntz-Dj-w5O"/>
+                            <constraint firstItem="ddV-tX-Bjt" firstAttribute="top" secondItem="hiJ-Py-0dS" secondAttribute="bottom" constant="-13" id="Ow4-Yw-9HH"/>
+                            <constraint firstItem="vDi-tj-njf" firstAttribute="top" secondItem="hiJ-Py-0dS" secondAttribute="bottom" constant="125" id="PVR-Bv-xOw"/>
                             <constraint firstItem="NGQ-a5-es5" firstAttribute="trailing" secondItem="dVb-Uj-V9j" secondAttribute="trailingMargin" id="RGV-52-JCB"/>
+                            <constraint firstItem="hiJ-Py-0dS" firstAttribute="trailing" secondItem="NGQ-a5-es5" secondAttribute="trailing" id="YJH-kU-wj4"/>
+                            <constraint firstItem="hiJ-Py-0dS" firstAttribute="top" secondItem="NGQ-a5-es5" secondAttribute="bottom" constant="13" id="apD-9V-AKI"/>
                             <constraint firstItem="NGQ-a5-es5" firstAttribute="top" secondItem="GFb-6p-R1a" secondAttribute="bottom" constant="13" id="bWw-QS-Yp4"/>
-                            <constraint firstItem="dth-0T-dn4" firstAttribute="leading" secondItem="dVb-Uj-V9j" secondAttribute="leadingMargin" id="pOD-KO-qP8"/>
-                            <constraint firstItem="dth-0T-dn4" firstAttribute="trailing" secondItem="dVb-Uj-V9j" secondAttribute="trailingMargin" id="rQF-d7-Elo"/>
+                            <constraint firstItem="hiJ-Py-0dS" firstAttribute="leading" secondItem="NGQ-a5-es5" secondAttribute="leading" id="ex6-Ir-muU"/>
+                            <constraint firstItem="hiJ-Py-0dS" firstAttribute="leading" secondItem="dth-0T-dn4" secondAttribute="leading" id="k2v-gL-EGN"/>
+                            <constraint firstItem="hiJ-Py-0dS" firstAttribute="top" secondItem="dth-0T-dn4" secondAttribute="bottom" constant="-21" id="txR-61-eHs"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="birthdateLabel" destination="ddV-tX-Bjt" id="I6L-Gr-kSX"/>
+                        <outlet property="categoryLabel" destination="hiJ-Py-0dS" id="4Yb-cC-ocF"/>
                         <outlet property="definitionLabel" destination="dth-0T-dn4" id="ToW-tB-qgM"/>
                         <outlet property="emojiText" destination="NGQ-a5-es5" id="MkQ-rb-zTB"/>
                     </connections>

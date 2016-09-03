@@ -15,6 +15,7 @@
 		166510051D791E4C00A1DAF0 /* EmojiLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166510041D791E4C00A1DAF0 /* EmojiLibraryTests.swift */; };
 		166510101D791E4C00A1DAF0 /* EmojiLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665100F1D791E4C00A1DAF0 /* EmojiLibraryUITests.swift */; };
 		1665101E1D792EAC00A1DAF0 /* EmojiViewControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665101D1D792EAC00A1DAF0 /* EmojiViewControl.swift */; };
+		166510201D7A79E400A1DAF0 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1665101F1D7A79E400A1DAF0 /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1665100F1D791E4C00A1DAF0 /* EmojiLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiLibraryUITests.swift; sourceTree = "<group>"; };
 		166510111D791E4C00A1DAF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1665101D1D792EAC00A1DAF0 /* EmojiViewControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiViewControl.swift; sourceTree = "<group>"; };
+		1665101F1D7A79E400A1DAF0 /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				16650FEF1D791E4C00A1DAF0 /* AppDelegate.swift */,
 				16650FF11D791E4C00A1DAF0 /* ViewController.swift */,
 				1665101D1D792EAC00A1DAF0 /* EmojiViewControl.swift */,
+				1665101F1D7A79E400A1DAF0 /* Emoji.swift */,
 				16650FF31D791E4C00A1DAF0 /* Main.storyboard */,
 				16650FF61D791E4C00A1DAF0 /* Assets.xcassets */,
 				16650FF81D791E4C00A1DAF0 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1665101E1D792EAC00A1DAF0 /* EmojiViewControl.swift in Sources */,
+				166510201D7A79E400A1DAF0 /* Emoji.swift in Sources */,
 				16650FF21D791E4C00A1DAF0 /* ViewController.swift in Sources */,
 				16650FF01D791E4C00A1DAF0 /* AppDelegate.swift in Sources */,
 			);
